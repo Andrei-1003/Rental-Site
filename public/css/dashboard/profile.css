@@ -1,0 +1,33 @@
+.file-caption .file-caption-name {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    background: 0 0;
+    outline: 0;
+}
+
+.fileinput-remove-button, .fileinput-cancel-button {
+    display: none;
+}
+
+.btn-file {
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    opacity: 0;
+    background: none;
+    cursor: inherit;
+    display: block;
+}
+
+.btn-file input[type=file], .file-caption-icon, .file-no-browse, .file-preview .fileinput-remove, .file-zoom-dialog .btn-navigate, .file-zoom-dialog .floating-buttons, .krajee-default .file-thumb-progress {
+    position: absolute;
+}
